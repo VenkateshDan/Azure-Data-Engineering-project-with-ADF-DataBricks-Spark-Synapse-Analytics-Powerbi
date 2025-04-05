@@ -34,7 +34,17 @@ Key Components
 - Implement logging and alerting with Azure Monitor
 - Replace key-based access with Service Principal + Key Vault
 
----
+📂 Folder Structure
+Azure-Data-Engineering-Project/
+│── README.md              # Project Documentation
+│── data/                  # Sample datasets (if applicable)
+│── notebooks/             # Databricks notebooks
+│── pipelines/             # ADF Pipeline JSON exports
+│── devops/                # CI/CD YAML files
+│── scripts/               # PySpark transformation scripts
+│── docs/                  # Screenshots & architecture diagrams
+│── deployment/            # ARM templates for resource deployment
+│── .gitignore             # Ignore unnecessary files
 
 👨‍💻 Author
 Venkatesh Dan
